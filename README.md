@@ -2,9 +2,10 @@
 
 ## Requirements
 
-1. .NET 4.5
-2. PowerShell
-3. Network capability to pull latest nuget packages
+1. Visual Studio
+2. .NET 4.5
+3. PowerShell
+4. Network capability to pull latest nuget packages
 
 ## Config
 
