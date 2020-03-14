@@ -27,7 +27,7 @@
 - `ReportLocation` is a destination folder for a csv report generated during an extract
 - `Cron` is a scheduling configuration for repeated runs of an extract. See more details [here](https://en.wikipedia.org/wiki/Cron). Current value of `* * * *` represents a schedule of every minute
 
-## Deployment steps
+## Steps
 
 You can select either of 2 options:
 
