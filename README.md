@@ -38,7 +38,7 @@ You can select either of 2 options:
 3. Run `deploy.ps1` script
 
    ```PowerShell
-   .\deploy1.ps
+   .\deploy.ps1
    ```
 
 4. Review configured folders in `LogLocation` and `ReportLocation` for outcomes
