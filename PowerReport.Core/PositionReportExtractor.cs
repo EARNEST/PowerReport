@@ -27,11 +27,11 @@ namespace PowerReport.Core
 
         public async Task RunAsync(DateTime date, CancellationToken cancellationToken)
         {
-
             this.logger.Trace("Extraction started");
             this.logger.Trace("Getting position");
             var resPosition = await this.service.GetPositionAsync(date);
             this.logger.Trace("Position acquired");
+            
             cancellationToken.ThrowIfCancellationRequested();
 
             var result = await resPosition.Match(
