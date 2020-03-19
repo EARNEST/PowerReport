@@ -22,7 +22,6 @@ namespace PowerReport.Core.Entities
 
             if (double.IsNaN(volume) || double.IsInfinity(volume))
             {
-
                 throw new DomainLogicException($"Volume is invalid. Volume: {volume}");
             }
 
