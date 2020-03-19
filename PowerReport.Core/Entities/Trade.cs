@@ -23,7 +23,7 @@ namespace PowerReport.Core.Entities
             if (double.IsNaN(volume) || double.IsInfinity(volume))
             {
 
-                throw new DomainLogicException($"Volume is invalid. Volume: {period}");
+                throw new DomainLogicException($"Volume is invalid. Volume: {volume}");
             }
 
             return new Trade(period, volume);
